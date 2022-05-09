@@ -1,0 +1,7 @@
+C:\Users\Łukasz Tworzydło\source\repos\oop-kz2-prostokąt\oop-kz2-prostokąt\obj\Debug\oop-kz2-prostokąt.csproj.AssemblyReference.cache
+C:\Users\Łukasz Tworzydło\source\repos\oop-kz2-prostokąt\oop-kz2-prostokąt\obj\Debug\oop-kz2-prostokąt.csproj.CoreCompileInputs.cache
+C:\Users\Łukasz Tworzydło\source\repos\oop-kz2-prostokąt\oop-kz2-prostokąt\bin\Debug\oop-kz2-prostokąt.exe.config
+C:\Users\Łukasz Tworzydło\source\repos\oop-kz2-prostokąt\oop-kz2-prostokąt\bin\Debug\oop-kz2-prostokąt.exe
+C:\Users\Łukasz Tworzydło\source\repos\oop-kz2-prostokąt\oop-kz2-prostokąt\bin\Debug\oop-kz2-prostokąt.pdb
+C:\Users\Łukasz Tworzydło\source\repos\oop-kz2-prostokąt\oop-kz2-prostokąt\obj\Debug\oop-kz2-prostokąt.exe
+C:\Users\Łukasz Tworzydło\source\repos\oop-kz2-prostokąt\oop-kz2-prostokąt\obj\Debug\oop-kz2-prostokąt.pdb
