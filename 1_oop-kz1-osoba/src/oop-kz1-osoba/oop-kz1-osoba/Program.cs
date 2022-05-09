@@ -19,6 +19,14 @@ namespace oop_kz1_osoba
                 "imienia oraz nazwiska, jak i wypisanie wieku\n" +
                 "[obliczonych lat za pomocą instrukcji w foreach] ;>\n");
 
+            Nowa_Osoba();
+
+            //////////////////////////////////////////////////
+
+            Console.ReadKey();
+        }
+        static void Nowa_Osoba()
+        {
             kz1_osoba
                 nowa_osoba = new kz1_osoba("Missie", "Anaina");
 
@@ -61,10 +69,6 @@ namespace oop_kz1_osoba
                     Console.WriteLine(dane_wyjściowe);
                 }
             }
-
-            //////////////////////////////////////////////////
-
-            Console.ReadKey();
         }
     }
 }
