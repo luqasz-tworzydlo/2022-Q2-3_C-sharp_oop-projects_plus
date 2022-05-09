@@ -1,0 +1,7 @@
+C:\Users\Łukasz Tworzydło\source\repos\oop-kz1-osoba\oop-kz1-osoba\obj\Debug\oop-kz1-osoba.csproj.AssemblyReference.cache
+C:\Users\Łukasz Tworzydło\source\repos\oop-kz1-osoba\oop-kz1-osoba\obj\Debug\oop-kz1-osoba.csproj.CoreCompileInputs.cache
+C:\Users\Łukasz Tworzydło\source\repos\oop-kz1-osoba\oop-kz1-osoba\bin\Debug\oop-kz1-osoba.exe.config
+C:\Users\Łukasz Tworzydło\source\repos\oop-kz1-osoba\oop-kz1-osoba\bin\Debug\oop-kz1-osoba.exe
+C:\Users\Łukasz Tworzydło\source\repos\oop-kz1-osoba\oop-kz1-osoba\bin\Debug\oop-kz1-osoba.pdb
+C:\Users\Łukasz Tworzydło\source\repos\oop-kz1-osoba\oop-kz1-osoba\obj\Debug\oop-kz1-osoba.exe
+C:\Users\Łukasz Tworzydło\source\repos\oop-kz1-osoba\oop-kz1-osoba\obj\Debug\oop-kz1-osoba.pdb
