@@ -10,6 +10,23 @@ namespace oop_kz2_prostokąt
     {
         static void Main(string[] args)
         {
+            //////////////////////////////////////////////////
+            //
+            // Łukasz Tworzydło - nr albumu: gd29623 [projekt 2]
+            //
+            //////////////////////////////////////////////////
+            Console.WriteLine("\n(2) Z2 => Wyświetlenie wybranych\n" +
+                "arkuszy papieru, zgodnie z wprowadzonymi danymi\n" +
+                "[wymiary dla arkuszy A, B, jak i również C] ;>");
+
+            Wybrane_Arkusze();
+
+            //////////////////////////////////////////////////
+
+            Console.ReadKey();
+        }
+        static void Wybrane_Arkusze()
+        {
             kz2_prostokąt
                 P1_1 = new kz2_prostokąt("A4"),
                 P1_2 = new kz2_prostokąt("A5"),
@@ -23,9 +40,7 @@ namespace oop_kz2_prostokąt
                 P3_2 = new kz2_prostokąt("C5"),
                 P3_3 = new kz2_prostokąt("C9"),
 
-                P3 = new kz2_prostokąt(30,21);
-
-            Console.ReadKey();
+                P3 = new kz2_prostokąt(30, 21);
         }
     }
 }

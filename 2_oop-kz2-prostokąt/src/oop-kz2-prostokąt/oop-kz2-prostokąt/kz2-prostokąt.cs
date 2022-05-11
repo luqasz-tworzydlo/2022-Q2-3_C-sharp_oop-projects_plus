@@ -75,7 +75,7 @@ namespace oop_kz2_prostokąt
             Obwód_Arkusza = 2 * BokA + 2 * BokB;
             Przekątna_Arkusza = Math.Sqrt(BokA * BokA + BokB + BokB);
 
-            Console.WriteLine("\nWymiary naszego arkusza to: " + bok_A + " i " + bok_B + ", gdzie:");
+            Console.WriteLine("\nWymiary naszego arkusza to: " + BokA + " i " + BokB + ", gdzie:");
             Console.WriteLine("=> pole naszego arkusza wynosi: " + Pole_Arkusza +
                 "\n=> obwód naszego  arkusza wynosi: " + Obwód_Arkusza +
                 "\n=> przekątna naszego arkusza wynosi: " + Przekątna_Arkusza);
@@ -101,9 +101,9 @@ namespace oop_kz2_prostokąt
             F_P = Convert.ToString(a_p);
             switch (F_P)
             {
-                case "A": Console.WriteLine("\nFormat naszego arkusza " + a_p + i_p + " ma następujące wymiary: " + wymiaryA[i_p] + " [mm]"); break;
-                case "B": Console.WriteLine("\nFormat naszego arkusza " + a_p + i_p + " ma następujące wymiary: " + wymiaryB[i_p] + " [mm]"); break;
-                case "C": Console.WriteLine("\nFormat naszego arkusza " + a_p + i_p + " ma następujące wymiary: " + wymiaryC[i_p] + " [mm]"); break;
+                case "A": Console.WriteLine("\nFormat arkusza " + a_p + i_p + " ma następujące wymiary: " + wymiaryA[i_p] + " [mm]"); break;
+                case "B": Console.WriteLine("\nFormat arkusza " + a_p + i_p + " ma następujące wymiary: " + wymiaryB[i_p] + " [mm]"); break;
+                case "C": Console.WriteLine("\nFormat arkusza " + a_p + i_p + " ma następujące wymiary: " + wymiaryC[i_p] + " [mm]"); break;
                 default:
                     Console.WriteLine("Nie wprowadzono danych! :<"); break;
             }
