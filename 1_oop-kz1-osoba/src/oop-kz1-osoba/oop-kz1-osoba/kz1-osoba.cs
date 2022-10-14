@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace oop_kz1_osoba
 {
-    class kz1_osoba
+    class Osoba
     {
         string imię;
-        public string Nazwisko;
+        string nazwisko;
         string imięNazwisko; // wartość do konstruktora ImięNazwisko
 
         public string Imię // instrukcja [konstruktor] deklarująca imię
@@ -20,19 +20,23 @@ namespace oop_kz1_osoba
             }
             set
             {
-                imię = value;
+                // sprawdzić, czy value nie jest puste
+                if (value == null)
+                    throw new Exception();
+                else
+                    imię = value;
                 sklejoneImięNazwisko();
             }
         }
-        public string Jakieś_Nazwisko // instrukcja [konstruktor] deklarująca nazwisko
+        public string Nazwisko // instrukcja [konstruktor] deklarująca nazwisko
         {
             get
             {
-                return Nazwisko;
+                return nazwisko;
             }
             set
             {
-                Nazwisko = value;
+                nazwisko = value;
                 sklejoneImięNazwisko();
             }
         }
@@ -47,24 +51,24 @@ namespace oop_kz1_osoba
                 string[] rozbicie = value.Split(' ');
                 imię = rozbicie[0];
                 if (rozbicie.Length > 1)
-                    Nazwisko = rozbicie[0];
+                    nazwisko = rozbicie[0];
                 else
-                    Nazwisko = "";
+                    nazwisko = "";
                 sklejoneImięNazwisko();
             }
         }
         void sklejoneImięNazwisko()
         {
-            if (Nazwisko != " ")
-                imięNazwisko = imię + " " + Nazwisko;
+            if (nazwisko != " ")
+                imięNazwisko = imię + " " + nazwisko;
             else
                 imięNazwisko = imię;
         }
 
-        public kz1_osoba(string imię, string Nazwisko)
+        public Osoba(string imię, string Nazwisko)
         {
             this.imię = imię;
-            this.Nazwisko = Nazwisko;
+            this.nazwisko = Nazwisko;
             sklejoneImięNazwisko();
         }
     }

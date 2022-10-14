@@ -27,8 +27,8 @@ namespace oop_kz1_osoba
         }
         static void Nowa_Osoba()
         {
-            kz1_osoba
-                nowa_osoba = new kz1_osoba("Missie", "Anaina");
+            Osoba
+                nowa_osoba = new Osoba("Missie", "Anaina");
 
             DateTime DataUrodzenia = new DateTime(2012, 3, 18);
             DateTime[] DataŚmierciNieśmierci =
@@ -42,7 +42,7 @@ namespace oop_kz1_osoba
 
             Console.WriteLine("Poznajcie " + nowa_osoba.Imię
                 + ", której nazwisko \n"
-                + "brzmi następująco: " + nowa_osoba.Jakieś_Nazwisko
+                + "brzmi następująco: " + nowa_osoba.Nazwisko
                 + "!" + " :>>>");
 
             Console.WriteLine("\nPełny zapis jej imienia i nazwiska"
