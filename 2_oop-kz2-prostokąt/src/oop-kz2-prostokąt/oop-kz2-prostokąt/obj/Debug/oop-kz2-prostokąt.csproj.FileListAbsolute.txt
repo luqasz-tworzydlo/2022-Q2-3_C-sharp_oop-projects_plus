@@ -5,3 +5,4 @@ C:\Users\Łukasz Tworzydło\source\repos\oop-kz2-prostokąt\oop-kz2-prostokąt\b
 C:\Users\Łukasz Tworzydło\source\repos\oop-kz2-prostokąt\oop-kz2-prostokąt\bin\Debug\oop-kz2-prostokąt.pdb
 C:\Users\Łukasz Tworzydło\source\repos\oop-kz2-prostokąt\oop-kz2-prostokąt\obj\Debug\oop-kz2-prostokąt.exe
 C:\Users\Łukasz Tworzydło\source\repos\oop-kz2-prostokąt\oop-kz2-prostokąt\obj\Debug\oop-kz2-prostokąt.pdb
+C:\Users\Łukasz Tworzydło\source\repos\oop-kz2-prostokąt\oop-kz2-prostokąt\obj\Debug\oop-kz2-prostokąt.csproj.SuggestedBindingRedirects.cache

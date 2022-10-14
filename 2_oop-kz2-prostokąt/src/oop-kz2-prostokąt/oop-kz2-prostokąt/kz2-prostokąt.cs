@@ -32,6 +32,9 @@ namespace oop_kz2_prostokąt
         string[] wymiaryA = { "841×1189", "594×841", "420×594", "297×420", "210×297", "148×210", "105×148", "74×105", "52×74", "37×52", "26×37" };
         string[] wymiaryB = { "1000×1414", "1000×1414", "500×707", "353×500", "250×353", "176×250", "125×176", "88×125", "62×88", "44×62", "31×44" };
         string[] wymiaryC = { "917×1297", "648×917", "458×648", "324×458", "229×324", "162×229", "114×162", "81×114", "57×81", "40×57", "28×40" };
+        // zrobić jeden słownik [!!!]
+        // słownik krotek [ string, ... 
+        // Dictionary<string,(double,double)>
 
         // poniżej są publiczne właściwości double BokA i BokB < 3 >
         public double BokA
