@@ -1,0 +1,8 @@
+C:\Users\Łukasz Tworzydło\source\repos\oop-kz3-wektor\oop-kz3-wektor\bin\Debug\oop-kz3-wektor.exe.config
+C:\Users\Łukasz Tworzydło\source\repos\oop-kz3-wektor\oop-kz3-wektor\bin\Debug\oop-kz3-wektor.exe
+C:\Users\Łukasz Tworzydło\source\repos\oop-kz3-wektor\oop-kz3-wektor\bin\Debug\oop-kz3-wektor.pdb
+C:\Users\Łukasz Tworzydło\source\repos\oop-kz3-wektor\oop-kz3-wektor\obj\Debug\oop-kz3-wektor.csproj.AssemblyReference.cache
+C:\Users\Łukasz Tworzydło\source\repos\oop-kz3-wektor\oop-kz3-wektor\obj\Debug\oop-kz3-wektor.csproj.SuggestedBindingRedirects.cache
+C:\Users\Łukasz Tworzydło\source\repos\oop-kz3-wektor\oop-kz3-wektor\obj\Debug\oop-kz3-wektor.csproj.CoreCompileInputs.cache
+C:\Users\Łukasz Tworzydło\source\repos\oop-kz3-wektor\oop-kz3-wektor\obj\Debug\oop-kz3-wektor.exe
+C:\Users\Łukasz Tworzydło\source\repos\oop-kz3-wektor\oop-kz3-wektor\obj\Debug\oop-kz3-wektor.pdb

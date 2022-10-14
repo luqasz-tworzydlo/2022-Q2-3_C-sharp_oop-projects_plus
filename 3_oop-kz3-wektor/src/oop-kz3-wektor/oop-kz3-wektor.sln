@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32421.90
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "oop-kz3-wektor", "oop-kz3-wektor\oop-kz3-wektor.csproj", "{890949A2-BA02-4906-95F2-891982A8FBDC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{890949A2-BA02-4906-95F2-891982A8FBDC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{890949A2-BA02-4906-95F2-891982A8FBDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{890949A2-BA02-4906-95F2-891982A8FBDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{890949A2-BA02-4906-95F2-891982A8FBDC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6318A6D2-DB5C-4025-B983-9A669C025D3A}
+	EndGlobalSection
+EndGlobal
