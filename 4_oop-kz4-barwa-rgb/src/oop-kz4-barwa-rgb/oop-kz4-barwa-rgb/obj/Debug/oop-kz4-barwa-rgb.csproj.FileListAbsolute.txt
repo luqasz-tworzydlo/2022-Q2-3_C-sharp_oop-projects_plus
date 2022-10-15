@@ -1,0 +1,8 @@
+C:\Users\Łukasz Tworzydło\source\repos\oop-kz4-barwa-rgb\oop-kz4-barwa-rgb\obj\Debug\oop-kz4-barwa-rgb.csproj.AssemblyReference.cache
+C:\Users\Łukasz Tworzydło\source\repos\oop-kz4-barwa-rgb\oop-kz4-barwa-rgb\obj\Debug\oop-kz4-barwa-rgb.csproj.SuggestedBindingRedirects.cache
+C:\Users\Łukasz Tworzydło\source\repos\oop-kz4-barwa-rgb\oop-kz4-barwa-rgb\obj\Debug\oop-kz4-barwa-rgb.csproj.CoreCompileInputs.cache
+C:\Users\Łukasz Tworzydło\source\repos\oop-kz4-barwa-rgb\oop-kz4-barwa-rgb\bin\Debug\oop-kz4-barwa-rgb.exe.config
+C:\Users\Łukasz Tworzydło\source\repos\oop-kz4-barwa-rgb\oop-kz4-barwa-rgb\bin\Debug\oop-kz4-barwa-rgb.exe
+C:\Users\Łukasz Tworzydło\source\repos\oop-kz4-barwa-rgb\oop-kz4-barwa-rgb\bin\Debug\oop-kz4-barwa-rgb.pdb
+C:\Users\Łukasz Tworzydło\source\repos\oop-kz4-barwa-rgb\oop-kz4-barwa-rgb\obj\Debug\oop-kz4-barwa-rgb.exe
+C:\Users\Łukasz Tworzydło\source\repos\oop-kz4-barwa-rgb\oop-kz4-barwa-rgb\obj\Debug\oop-kz4-barwa-rgb.pdb
