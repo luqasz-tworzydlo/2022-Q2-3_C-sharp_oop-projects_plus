@@ -12,6 +12,26 @@ namespace oop_kz1_osoba
         string nazwisko;
         string imięNazwisko; // wartość do konstruktora ImięNazwisko
 
+
+        public DateTime?
+            DataUrodzenia,
+            DataŚmierci;
+        public TimeSpan? wiek_ilośćDni
+        {
+            get
+            {
+                if (DataŚmierci == null)
+                    return DateTime.Now - DataUrodzenia;
+                else
+                    return DataŚmierci - DataUrodzenia;
+            }
+        }
+        public Osoba(/*DateTime? początek, DateTime? koniec*/)
+        {
+            /*this.początek = początek;
+            this.koniec = koniec;*/
+        }
+
         public string Imię // instrukcja [konstruktor] deklarująca imię
         {
             get

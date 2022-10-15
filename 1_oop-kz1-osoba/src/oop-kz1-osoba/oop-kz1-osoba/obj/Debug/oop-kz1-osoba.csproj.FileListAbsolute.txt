@@ -6,3 +6,10 @@ C:\Users\Łukasz Tworzydło\source\repos\oop-kz1-osoba\oop-kz1-osoba\bin\Debug\o
 C:\Users\Łukasz Tworzydło\source\repos\oop-kz1-osoba\oop-kz1-osoba\obj\Debug\oop-kz1-osoba.exe
 C:\Users\Łukasz Tworzydło\source\repos\oop-kz1-osoba\oop-kz1-osoba\obj\Debug\oop-kz1-osoba.pdb
 C:\Users\Łukasz Tworzydło\source\repos\oop-kz1-osoba\oop-kz1-osoba\obj\Debug\oop-kz1-osoba.csproj.SuggestedBindingRedirects.cache
+D:\Carpe Tonus\GitHub Repositories\2022-Q2-3_C-sharp_oop-projects_plus\1_oop-kz1-osoba\src\2022-05-27\oop-kz1-osoba\oop-kz1-osoba\bin\Debug\oop-kz1-osoba.exe.config
+D:\Carpe Tonus\GitHub Repositories\2022-Q2-3_C-sharp_oop-projects_plus\1_oop-kz1-osoba\src\2022-05-27\oop-kz1-osoba\oop-kz1-osoba\bin\Debug\oop-kz1-osoba.exe
+D:\Carpe Tonus\GitHub Repositories\2022-Q2-3_C-sharp_oop-projects_plus\1_oop-kz1-osoba\src\2022-05-27\oop-kz1-osoba\oop-kz1-osoba\bin\Debug\oop-kz1-osoba.pdb
+D:\Carpe Tonus\GitHub Repositories\2022-Q2-3_C-sharp_oop-projects_plus\1_oop-kz1-osoba\src\2022-05-27\oop-kz1-osoba\oop-kz1-osoba\obj\Debug\oop-kz1-osoba.csproj.AssemblyReference.cache
+D:\Carpe Tonus\GitHub Repositories\2022-Q2-3_C-sharp_oop-projects_plus\1_oop-kz1-osoba\src\2022-05-27\oop-kz1-osoba\oop-kz1-osoba\obj\Debug\oop-kz1-osoba.csproj.CoreCompileInputs.cache
+D:\Carpe Tonus\GitHub Repositories\2022-Q2-3_C-sharp_oop-projects_plus\1_oop-kz1-osoba\src\2022-05-27\oop-kz1-osoba\oop-kz1-osoba\obj\Debug\oop-kz1-osoba.exe
+D:\Carpe Tonus\GitHub Repositories\2022-Q2-3_C-sharp_oop-projects_plus\1_oop-kz1-osoba\src\2022-05-27\oop-kz1-osoba\oop-kz1-osoba\obj\Debug\oop-kz1-osoba.pdb
