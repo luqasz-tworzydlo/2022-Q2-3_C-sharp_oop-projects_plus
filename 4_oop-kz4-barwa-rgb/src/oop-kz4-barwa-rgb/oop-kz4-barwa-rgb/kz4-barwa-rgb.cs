@@ -28,6 +28,7 @@ namespace oop_kz4_barwa_rgb
 
         public virtual (byte R, byte G, byte B) RGB { get; set; }
 
+        // wartości dziesiętne
         byte
             r = 68, // decimal value [ 68 ] => hex value [ 44 ]
             g = 34, // decimal value [ 34 ] => hex value [ 22 ]
@@ -76,6 +77,7 @@ namespace oop_kz4_barwa_rgb
             }
         }
 
+        // 'prasowanie' i zmiana na wartości szesnastkowe
         string rr, gg, bb;
 
         public string Rr_Parase
@@ -117,6 +119,7 @@ namespace oop_kz4_barwa_rgb
             }
         }
 
+        // konstruktor [wyświetlenie naszych wartości]
         public Barwa()
         {
             Console.WriteLine(
@@ -144,6 +147,54 @@ namespace oop_kz4_barwa_rgb
     internal class Barwa12 : Barwa
     {
 
+        // hex   bin   color
+        // 0    0000    black
+        // -- -- -- -- -- -- -- -- --
+        // 3    0011    cyan
+        // -- -- -- -- -- -- -- -- --
+        // 5    0101    magneta
+        // 6    0110    brown
+        // -- -- -- -- -- -- -- -- --
+        // 8    1000    dark gray
+
+        // wartości dziesiętne
+        byte
+            black = 00, // decimal value [ 00 ] => hex value [ 00 ] => binary value [ 0000 0000 ]
+            cyan = 51, // decimal value [ 51 ] => hex value [ 33 ] => binary value [ 0011 0011 ]
+            magneta = 85, // decimal value [ 85 ] => hex value [ 55 ] => binary value [ 0101 0101 ]
+            brown = 102, // decimal value [ 102 ] => hex value [ 66 ] => binary value [ 0110 0110 ]
+            dark_gray = 136; // decimal value [ 136 ] => hex value [ 88 ] => binary value [ 1000 1000 ]
+        
+        public byte Black
+        {
+            get { return black; }
+            set { if (value == 0) throw new Exception(); else black = value; }
+        }
+        public byte Cyan
+        {
+            get { return cyan; }
+            set { if (value == 0) throw new Exception(); else cyan = value; }
+        }
+        public byte Magneta
+        {
+            get { return magneta; }
+            set { if (value == 0) throw new Exception(); else magneta = value; }
+        }
+        public byte Brown
+        {
+            get { return brown; }
+            set { if (value == 0) throw new Exception(); else brown = value; }
+        }
+        public byte Dark_Gray
+        {
+            get { return dark_gray; }
+            set { if (value == 0) throw new Exception(); else dark_gray = value; }
+        }
+
+        //string Decimal = Convert.ToInt32("0011", 2).ToString();
+        //Console.WriteLine(Decimal);
+
+
         public override (byte R, byte G, byte B) RGB
         {
             get => base.RGB;
@@ -155,8 +206,31 @@ namespace oop_kz4_barwa_rgb
             return $"{R}, {G}, {B} colors";
         }
     }
-    internal class BarwaPółprzezroczysta : Barwa12
+    internal class BarwaPółprzezroczysta : Barwa
     {
+        // hex   bin   color
+        // -- -- -- -- -- -- -- -- --
+        // 7    0111    light gray
+        // -- -- -- -- -- -- -- -- --
+        // 9    1001    light blue
+        // a    1010    light green
+        // b    1011    light cyan
+        // c    1100    light red
+        // d    1101    light magneta
+        // e    1110    yellow
+        // f    1111    white
+
+        byte
+            light_gray = 68, // decimal value [ 68 ] => hex value [ 44 ]
+            light_blue = 34, // decimal value [ 34 ] => hex value [ 22 ]
+            light_green = 17,
+            light_cyan = 17,
+            light_red = 17,
+            light_magneta = 17,
+            yellow = 17,
+            white = 17;
+
+
         public byte A
         {
             get
