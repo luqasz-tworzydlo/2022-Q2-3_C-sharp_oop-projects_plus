@@ -40,7 +40,13 @@ namespace oop_kz2_prostokąt
                 P3_2 = new Prostokąt("C5"),
                 P3_3 = new Prostokąt("C9"),
 
-                P3 = new Prostokąt(30, 21);
+                P4 = new Prostokąt(30, 21);
+
+            Console.WriteLine("\n\nWprowadź wymiar arkusza [zgodny z normą ISO 216" +
+                "\ndla szeregu A i B oraz ISO 269 dla szeregu C]:\n");
+            string wwa = Convert.ToString(Console.ReadLine());
+            Prostokąt
+                P5 = new Prostokąt(wwa);
         }
     }
 }
