@@ -27,20 +27,20 @@ namespace oop_kz2_prostokąt
         }
         static void Wybrane_Arkusze()
         {
-            kz2_prostokąt
-                P1_1 = new kz2_prostokąt("A4"),
-                P1_2 = new kz2_prostokąt("A5"),
-                P1_3 = new kz2_prostokąt("A9"),
+            Prostokąt
+                P1_1 = new Prostokąt("A4"),
+                P1_2 = new Prostokąt("A5"),
+                P1_3 = new Prostokąt("A9"),
 
-                P2_1 = new kz2_prostokąt("B4"),
-                P2_2 = new kz2_prostokąt("B5"),
-                P2_3 = new kz2_prostokąt("B9"),
+                P2_1 = new Prostokąt("B4"),
+                P2_2 = new Prostokąt("B5"),
+                P2_3 = new Prostokąt("B9"),
 
-                P3_1 = new kz2_prostokąt("C4"),
-                P3_2 = new kz2_prostokąt("C5"),
-                P3_3 = new kz2_prostokąt("C9"),
+                P3_1 = new Prostokąt("C4"),
+                P3_2 = new Prostokąt("C5"),
+                P3_3 = new Prostokąt("C9"),
 
-                P3 = new kz2_prostokąt(30, 21);
+                P3 = new Prostokąt(30, 21);
         }
     }
 }
