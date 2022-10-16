@@ -6,3 +6,10 @@ C:\Users\Łukasz Tworzydło\source\repos\oop-kz2-prostokąt\oop-kz2-prostokąt\b
 C:\Users\Łukasz Tworzydło\source\repos\oop-kz2-prostokąt\oop-kz2-prostokąt\obj\Debug\oop-kz2-prostokąt.exe
 C:\Users\Łukasz Tworzydło\source\repos\oop-kz2-prostokąt\oop-kz2-prostokąt\obj\Debug\oop-kz2-prostokąt.pdb
 C:\Users\Łukasz Tworzydło\source\repos\oop-kz2-prostokąt\oop-kz2-prostokąt\obj\Debug\oop-kz2-prostokąt.csproj.SuggestedBindingRedirects.cache
+D:\Carpe Tonus\GitHub Repositories\2022-Q2-3_C-sharp_oop-projects_plus\2_oop-kz2-prostokąt\src\2022-06-04\oop-kz2-prostokąt\oop-kz2-prostokąt\bin\Debug\oop-kz2-prostokąt.exe.config
+D:\Carpe Tonus\GitHub Repositories\2022-Q2-3_C-sharp_oop-projects_plus\2_oop-kz2-prostokąt\src\2022-06-04\oop-kz2-prostokąt\oop-kz2-prostokąt\bin\Debug\oop-kz2-prostokąt.exe
+D:\Carpe Tonus\GitHub Repositories\2022-Q2-3_C-sharp_oop-projects_plus\2_oop-kz2-prostokąt\src\2022-06-04\oop-kz2-prostokąt\oop-kz2-prostokąt\bin\Debug\oop-kz2-prostokąt.pdb
+D:\Carpe Tonus\GitHub Repositories\2022-Q2-3_C-sharp_oop-projects_plus\2_oop-kz2-prostokąt\src\2022-06-04\oop-kz2-prostokąt\oop-kz2-prostokąt\obj\Debug\oop-kz2-prostokąt.csproj.AssemblyReference.cache
+D:\Carpe Tonus\GitHub Repositories\2022-Q2-3_C-sharp_oop-projects_plus\2_oop-kz2-prostokąt\src\2022-06-04\oop-kz2-prostokąt\oop-kz2-prostokąt\obj\Debug\oop-kz2-prostokąt.csproj.CoreCompileInputs.cache
+D:\Carpe Tonus\GitHub Repositories\2022-Q2-3_C-sharp_oop-projects_plus\2_oop-kz2-prostokąt\src\2022-06-04\oop-kz2-prostokąt\oop-kz2-prostokąt\obj\Debug\oop-kz2-prostokąt.exe
+D:\Carpe Tonus\GitHub Repositories\2022-Q2-3_C-sharp_oop-projects_plus\2_oop-kz2-prostokąt\src\2022-06-04\oop-kz2-prostokąt\oop-kz2-prostokąt\obj\Debug\oop-kz2-prostokąt.pdb

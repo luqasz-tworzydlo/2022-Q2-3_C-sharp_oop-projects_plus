@@ -9,7 +9,7 @@ namespace oop_kz2_prostokąt
     class Prostokąt
     {
         // poniżej są niepubliczne pola double bokA i bokB < 2 >
-        public double
+        /*public*/ double
             bokA,
             bokB;
 
