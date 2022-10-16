@@ -16,7 +16,7 @@ namespace oop_kz1_osoba
         public DateTime?
             DataUrodzenia,
             DataŚmierci;
-        public TimeSpan? wiek_ilośćDni
+        public TimeSpan? wiek_ilośćDni // instrukcja obliczająca wiek
         {
             get
             {
@@ -26,11 +26,11 @@ namespace oop_kz1_osoba
                     return DataŚmierci - DataUrodzenia;
             }
         }
-        public Osoba(/*DateTime? początek, DateTime? koniec*/)
+
+        public Osoba() // konstruktor nr 2 [ dotyczy wieku ]
         {
-            /*this.początek = początek;
-            this.koniec = koniec;*/
         }
+
 
         public string Imię // instrukcja [konstruktor] deklarująca imię
         {
@@ -40,7 +40,7 @@ namespace oop_kz1_osoba
             }
             set
             {
-                // sprawdzić, czy value nie jest puste
+                // sprawdzanie, czy value nie jest puste
                 if (value == null)
                     throw new Exception();
                 else
@@ -56,11 +56,14 @@ namespace oop_kz1_osoba
             }
             set
             {
-                nazwisko = value;
+                if (value == null)
+                    throw new Exception();
+                else
+                    nazwisko = value;
                 sklejoneImięNazwisko();
             }
         }
-        public string ImięNazwisko
+        public string ImięNazwisko // instrukcja deklarująca imię oraz nazwisko
         {
             get
             {
@@ -77,7 +80,7 @@ namespace oop_kz1_osoba
                 sklejoneImięNazwisko();
             }
         }
-        void sklejoneImięNazwisko()
+        void sklejoneImięNazwisko() // instrukcja łącząca imię i nazwisko
         {
             if (nazwisko != " ")
                 imięNazwisko = imię + " " + nazwisko;
@@ -85,7 +88,7 @@ namespace oop_kz1_osoba
                 imięNazwisko = imię;
         }
 
-        public Osoba(string imię, string Nazwisko)
+        public Osoba(string imię, string Nazwisko) // konstruktor nr 1 [ dotyczy imienia i nazwiska ]
         {
             this.imię = imię;
             this.nazwisko = Nazwisko;

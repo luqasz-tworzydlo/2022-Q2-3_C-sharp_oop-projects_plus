@@ -16,12 +16,13 @@ namespace oop_kz1_osoba
             //
             //////////////////////////////////////////////////
             Console.WriteLine("\n(1) Z1 => Wyświetlenie łącznie oraz osobno\n" +
-                "imienia oraz nazwiska, jak i wypisanie wieku\n" +
-                "[obliczonych lat za pomocą instrukcji w foreach] ;>\n");
+                "imienia oraz nazwiska, jak i wypisanie wieku ;>\n");
 
-            // Nowa_Osoba();
             Nowa_Zagadka();
 
+            Console.WriteLine("\n... kontynuując ...\n");
+
+            Nowa_Osoba();
 
             //////////////////////////////////////////////////
 
@@ -36,13 +37,14 @@ namespace oop_kz1_osoba
 
             Osoba s = new Osoba()
             {
-                DataUrodzenia = DateTime.Parse("10.03.2022"),
-                DataŚmierci = DateTime.Parse("18.03.2022"),
+                DataUrodzenia = DateTime.Parse("18.03.2022"),
+                DataŚmierci = DateTime.Parse("28.03.2022"),
             };
 
-            Console.WriteLine("\nNiestety krótko żyją motylki, zaledwie od 15 do 29 dni :'<");
+            Console.WriteLine("Niestety krótko żyją motylki, zaledwie od 15 do 29 dni :'<\n");
 
             Console.WriteLine(
+                "W naszym przypadku " +
                 osoba_zagadka.Imię + " żyła zaledwie " +
                 s.wiek_ilośćDni.Value.Days + " dni :<<<"
                 );
@@ -52,16 +54,6 @@ namespace oop_kz1_osoba
             Osoba
                 nowa_osoba = new Osoba("Missie", "Anaina");
 
-            /*DateTime DataUrodzenia = new DateTime(2012, 3, 18);
-            DateTime[] DataŚmierciNieśmierci =
-            {
-                new DateTime(2012, 3, 18),
-                DateTime.Today,
-                DateTime.Today.AddYears(1),
-                DateTime.Today.AddYears(3),
-                DateTime.Today.AddYears(7),
-            };*/
-
             Console.WriteLine("Poznajcie " + nowa_osoba.Imię
                 + ", której nazwisko \n"
                 + "brzmi następująco: " + nowa_osoba.Nazwisko
@@ -70,7 +62,18 @@ namespace oop_kz1_osoba
             Console.WriteLine("\nPełny zapis jej imienia i nazwiska"
                 + "\nwygląda następująco ;>\n=> " + nowa_osoba.ImięNazwisko + " :>>>");
 
-            /*Console.WriteLine("\nPoniżej jest wyświetlona ilość lat,\n" +
+
+            DateTime DataUrodzenia = new DateTime(2012, 3, 18);
+            DateTime[] DataŚmierciNieśmierci =
+            {
+                new DateTime(2012, 3, 18),
+                DateTime.Today,
+                DateTime.Today.AddYears(1),
+                DateTime.Today.AddYears(3),
+                DateTime.Today.AddYears(7),
+            };
+
+            Console.WriteLine("\nPoniżej jest wyświetlona ilość lat,\n" +
                 "jakie miała " + nowa_osoba.Imię + " w roku 2012,\n" +
                 "ile ma dzisiaj lat, ile będzie mieć za rok\n" +
                 "ile będzie mieć za 3 lata oraz ile za 7 lat :>");
@@ -90,7 +93,7 @@ namespace oop_kz1_osoba
                     dane_wyjściowe = string.Format("=> {0} lat/a", years - 1);
                     Console.WriteLine(dane_wyjściowe);
                 }
-            }*/
+            }
         }
     }
 }
