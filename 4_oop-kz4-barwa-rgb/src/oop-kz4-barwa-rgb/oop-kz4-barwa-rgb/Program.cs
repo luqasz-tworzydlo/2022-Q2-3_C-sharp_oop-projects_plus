@@ -25,8 +25,11 @@ namespace oop_kz4_barwa_rgb
         }
         static void RGB()
         {
-            Barwa barwa = new Barwa();
-            //Console.WriteLine(barwa);
+            //Barwa barwa = new Barwa();
+            // Console.WriteLine(barwa);
+
+            Barwa12 b12 = new Barwa12();
+            Console.WriteLine(b12);
         }
     }
 }

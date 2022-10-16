@@ -191,9 +191,112 @@ namespace oop_kz4_barwa_rgb
             set { if (value == 0) throw new Exception(); else dark_gray = value; }
         }
 
-        //string Decimal = Convert.ToInt32("0011", 2).ToString();
-        //Console.WriteLine(Decimal);
+        // 'prasowanie' i zmiana na wartości szesnastkowe
+        string black_b, cyan_c, magneta_m, brown_b, dark_gray_dg;
 
+        public string Black_b_Parase
+        {
+            get
+            {
+                string decimalValueR = "00"; int numberR = int.Parse(decimalValueR);
+                black_b = numberR.ToString("x"); return black_b;
+            }
+        }
+        public string Cyan_c_Parase
+        {
+            get
+            {
+                string decimalValueR = "51"; int numberR = int.Parse(decimalValueR);
+                cyan_c = numberR.ToString("x"); return cyan_c;
+            }
+        }
+        public string Magneta_m_Parase
+        {
+            get
+            {
+                string decimalValueR = "85"; int numberR = int.Parse(decimalValueR);
+                magneta_m = numberR.ToString("x"); return magneta_m;
+            }
+        }
+        public string Brown_b_Parase
+        {
+            get
+            {
+                string decimalValueR = "102"; int numberR = int.Parse(decimalValueR);
+                brown_b = numberR.ToString("x"); return brown_b;
+            }
+        }
+        public string Dark_gray_dg_Parase
+        {
+            get
+            {
+                string decimalValueR = "136"; int numberR = int.Parse(decimalValueR);
+                dark_gray_dg = numberR.ToString("x"); return dark_gray_dg;
+            }
+        }
+
+        // < test > konwertowanie z systemu dwójkowego [binarnego] na dziesiętny
+        /*public string Test_Convert_From_Bin_To_Dec
+        {
+            get
+            {
+                string test = Convert.ToInt32("00110011", 2).ToString();
+                return test;
+            }
+        }*/
+
+        // < test > konwertowanie z systemu dziesiętnego na dwójkowy [binarny]
+        /*public string Test_Convert_From_Dec_To_Bin
+        {
+            get
+            {
+                int decimal_value = 51;
+                string binary_value = Convert.ToString(decimal_value, 2);
+                return binary_value;
+            }
+        }*/
+
+        // konwertowanie z systemu dziesiętnego na dwójkowy [binarny]
+        public string BlackBinary_Convert_From_Dec_To_Bin
+        {
+            get
+            {
+                string binary_value = Convert.ToString(black, 2);
+                return binary_value;
+            }
+        }
+        public string CyanBinary_Convert_From_Dec_To_Bin
+        {
+            get
+            {
+                string binary_value = Convert.ToString(cyan, 2);
+                return binary_value;
+            }
+        }
+        public string MagnetaBinary_Convert_From_Dec_To_Bin
+        {
+            get
+            {
+                string binary_value = Convert.ToString(magneta, 2);
+                return binary_value;
+            }
+        }
+        public string BrownBinary_Convert_From_Dec_To_Bin
+        {
+            get
+            {
+                string binary_value = Convert.ToString(brown, 2);
+                return binary_value;
+            }
+        }
+        public string DarkGrayBinary_Convert_From_Dec_To_Bin
+        {
+            get
+            {
+                string binary_value = Convert.ToString(dark_gray, 2);
+                return binary_value;
+            }
+        }
 
         public override (byte R, byte G, byte B) RGB
         {
@@ -201,9 +304,68 @@ namespace oop_kz4_barwa_rgb
             set => base.RGB = value;
         }
 
+
+        // konstruktor nr 1 [wyświetlenie naszych wartości]
+        /*public Barwa12()
+        {
+            Console.WriteLine(
+                "\n/// /// /// /// /// /// /// /// /// /// /// /// \n");
+
+            Console.WriteLine(
+                $"Colors - Decimal Values:" +
+                $"\n=> black: {Black}" +
+                $"\n=> cyan: {Cyan}" +
+                $"\n=> magneta: {Magneta}" +
+                $"\n=> brown: {Brown}" +
+                $"\n=> dark_gray: {Dark_Gray}");
+
+            Console.WriteLine(
+                $"\nColors - Hexadecimal Values:" +
+                $"\n=> black: {Black_b_Parase}" +
+                $"\n=> cyan: {Cyan_c_Parase}" +
+                $"\n=> magneta: {Magneta_m_Parase}" +
+                $"\n=> brown: {Brown_b_Parase}" +
+                $"\n=> dark_gray: {Dark_gray_dg_Parase}");
+
+            Console.WriteLine(
+                $"\nColors - Binary Values:" +
+                $"\n=> black: {BlackBinary_Convert_From_Dec_To_Bin}" +
+                $"\n=> cyan: {CyanBinary_Convert_From_Dec_To_Bin}" +
+                $"\n=> magneta: {MagnetaBinary_Convert_From_Dec_To_Bin}" +
+                $"\n=> brown: {BrownBinary_Convert_From_Dec_To_Bin}" +
+                $"\n=> dark_gray: {DarkGrayBinary_Convert_From_Dec_To_Bin}");
+
+            *//*Console.WriteLine(
+                $"\n=> Binary Value to Decimal Value < test >: {Test_Convert_From_Bin_To_Dec}" +
+                $"\n=> Decimal Value to Binary Value < test >: {Test_Convert_From_Dec_To_Bin}");*//*
+        }*/
+
+        // konstruktor nr 2 [wyświetlenie naszych wartości]
         public override string ToString()
         {
-            return $"{R}, {G}, {B} colors";
+            return $"\n/// /// /// /// /// /// /// /// /// /// /// ///\n" +
+                $"\n" +
+                $"Colors - Decimal Values:" +
+                $"\n=> black: {Black}" +
+                $"\n=> cyan: {Cyan}" +
+                $"\n=> magneta: {Magneta}" +
+                $"\n=> brown: {Brown}" +
+                $"\n=> dark_gray: {Dark_Gray}" +
+                $"\n" +
+                $"\nColors - Hexadecimal Values:" +
+                $"\n=> black: {Black_b_Parase}" +
+                $"\n=> cyan: {Cyan_c_Parase}" +
+                $"\n=> magneta: {Magneta_m_Parase}" +
+                $"\n=> brown: {Brown_b_Parase}" +
+                $"\n=> dark_gray: {Dark_gray_dg_Parase}" +
+                $"\n" +
+                $"\nColors - Binary Values:" +
+                $"\n=> black: {BlackBinary_Convert_From_Dec_To_Bin}" +
+                $"\n=> cyan: {CyanBinary_Convert_From_Dec_To_Bin}" +
+                $"\n=> magneta: {MagnetaBinary_Convert_From_Dec_To_Bin}" +
+                $"\n=> brown: {BrownBinary_Convert_From_Dec_To_Bin}" +
+                $"\n=> dark_gray: {DarkGrayBinary_Convert_From_Dec_To_Bin}"
+                ;
         }
     }
     internal class BarwaPółprzezroczysta : Barwa
