@@ -382,16 +382,166 @@ namespace oop_kz4_barwa_rgb
         // e    1110    yellow
         // f    1111    white
 
+        // wartości dziesiętne
         byte
-            light_gray = 68, // decimal value [ 68 ] => hex value [ 44 ]
-            light_blue = 34, // decimal value [ 34 ] => hex value [ 22 ]
-            light_green = 17,
-            light_cyan = 17,
-            light_red = 17,
-            light_magneta = 17,
-            yellow = 17,
-            white = 17;
+            light_gray = 119, // decimal value [ 119 ] => hex value [ 77 ] => binary value [ 0111 0111 ]
+            light_blue = 153, // decimal value [ 153 ] => hex value [ 99 ] => binary value [ 01001 1001 ]
+            light_green = 170, // decimal value [ 170 ] => hex value [ AA ] => binary value [ 01010 1010 ]
+            light_cyan = 187, // decimal value [ 187 ] => hex value [ BB ] => binary value [ 1011 1011 ]
+            light_red = 204, // decimal value [ 204 ] => hex value [ CC ] => binary value [ 1100 1100 ]
+            light_magneta = 221, // decimal value [ 221 ] => hex value [ DD ] => binary value [ 1101 1101 ]
+            yellow = 238, // decimal value [ 238 ] => hex value [ EE ] => binary value [ 1110 1110 ]
+            white = 255; // decimal value [ 255 ] => hex value [ FF ] => binary value [ 1111 1111 ]
 
+        public byte Light_Gray
+        {
+            get { return light_gray; }
+            set { if (value == 0) throw new Exception(); else light_gray = value; }
+        }
+        public byte Light_Blue
+        {
+            get { return light_blue; }
+            set { if (value == 0) throw new Exception(); else light_blue = value; }
+        }
+        public byte Light_Green
+        {
+            get { return light_green; }
+            set { if (value == 0) throw new Exception(); else light_green = value; }
+        }
+        public byte Light_Cyan
+        {
+            get { return light_cyan; }
+            set { if (value == 0) throw new Exception(); else light_cyan = value; }
+        }
+        public byte Light_Red
+        {
+            get { return light_red; }
+            set { if (value == 0) throw new Exception(); else light_red = value; }
+        }
+        public byte Light_Magneta
+        {
+            get { return light_magneta; }
+            set { if (value == 0) throw new Exception(); else light_magneta = value; }
+        }
+        public byte Yellow
+        {
+            get { return yellow; }
+            set { if (value == 0) throw new Exception(); else yellow = value; }
+        }
+        public byte White
+        {
+            get { return white; }
+            set { if (value == 0) throw new Exception(); else white = value; }
+        }
+
+        // 'prasowanie' i zmiana na wartości szesnastkowe
+        string light_gray_lg, light_blue_lb, light_green_lg, light_cyan_lc, light_red_lr, light_magneta_lm, yellow_y, white_w;
+
+        public string Light_gray_lg_Parase
+        {
+            get
+            {
+                string decimalValueR = "119"; int numberR = int.Parse(decimalValueR);
+                light_gray_lg = numberR.ToString("x"); return light_gray_lg;
+            }
+        }
+        public string Light_blue_lb_Parase
+        {
+            get
+            {
+                string decimalValueR = "153"; int numberR = int.Parse(decimalValueR);
+                light_blue_lb = numberR.ToString("x"); return light_blue_lb;
+            }
+        }
+        public string Light_green_lg_Parase
+        {
+            get
+            {
+                string decimalValueR = "170"; int numberR = int.Parse(decimalValueR);
+                light_green_lg = numberR.ToString("x"); return light_green_lg;
+            }
+        }
+        public string Light_cyan_lc_Parase
+        {
+            get
+            {
+                string decimalValueR = "187"; int numberR = int.Parse(decimalValueR);
+                light_cyan_lc = numberR.ToString("x"); return light_cyan_lc;
+            }
+        }
+        public string Light_red_lr_Parase
+        {
+            get
+            {
+                string decimalValueR = "204"; int numberR = int.Parse(decimalValueR);
+                light_red_lr = numberR.ToString("x"); return light_red_lr;
+            }
+        }
+        public string Light_magneta_lm_Parase
+        {
+            get
+            {
+                string decimalValueR = "221"; int numberR = int.Parse(decimalValueR);
+                light_magneta_lm = numberR.ToString("x"); return light_magneta_lm;
+            }
+        }
+        public string Yellow_y_Parase
+        {
+            get
+            {
+                string decimalValueR = "238"; int numberR = int.Parse(decimalValueR);
+                yellow_y = numberR.ToString("x"); return yellow_y;
+            }
+        }
+        public string White_w_Parase
+        {
+            get
+            {
+                string decimalValueR = "255"; int numberR = int.Parse(decimalValueR);
+                white_w = numberR.ToString("x"); return white_w;
+            }
+        }
+
+
+
+        public byte Alfa { get => white; set => white = value; }
+
+
+        
+
+
+        public override string ToString()
+        {
+            return $"\n/// /// /// /// /// /// /// /// /// /// /// ///\n" +
+                $"\n" +
+                $"ColorsPlus - Decimal Values:" +
+                $"\n=> light_gray: {Light_Gray}" +
+                $"\n=> light_blue: {Light_Blue}" +
+                $"\n=> light_green: {Light_Green}" +
+                $"\n=> light_cyan: {Light_Cyan}" +
+                $"\n=> light_red: {Light_Red}" +
+                $"\n=> light_magneta: {Light_Magneta}" +
+                $"\n=> yellow: {Yellow}" +
+                $"\n=> white: {White}" +
+                $"\n" +
+                $"\nColorsPlus - Hexadecimal Values:" +
+                $"\n=> light_gray: {Light_gray_lg_Parase}" +
+                $"\n=> light_blue: {Light_blue_lb_Parase}" +
+                $"\n=> light_green: {Light_green_lg_Parase}" +
+                $"\n=> light_cyan: {Light_cyan_lc_Parase}" +
+                $"\n=> light_red: {Light_red_lr_Parase}" +
+                $"\n=> light_magneta: {Light_magneta_lm_Parase}" +
+                $"\n=> yellow: {Yellow_y_Parase}" +
+                $"\n=> white: {White_w_Parase}" +
+                $"\n" +
+                $"\nColorsPlus - Binary Values:" +
+                $"\n=> black: {BlackBinary_Convert_From_Dec_To_Bin}" +
+                $"\n=> cyan: {CyanBinary_Convert_From_Dec_To_Bin}" +
+                $"\n=> magneta: {MagnetaBinary_Convert_From_Dec_To_Bin}" +
+                $"\n=> brown: {BrownBinary_Convert_From_Dec_To_Bin}" +
+                $"\n=> dark_gray: {DarkGrayBinary_Convert_From_Dec_To_Bin}"
+                ;
+        }
 
         public byte A
         {
