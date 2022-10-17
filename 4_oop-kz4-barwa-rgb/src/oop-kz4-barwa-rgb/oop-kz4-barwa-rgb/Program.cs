@@ -28,8 +28,11 @@ namespace oop_kz4_barwa_rgb
             //Barwa barwa = new Barwa();
             // Console.WriteLine(barwa);
 
-            Barwa12 b12 = new Barwa12();
-            Console.WriteLine(b12);
+            /*Barwa12 b12 = new Barwa12();
+            Console.WriteLine(b12);*/
+
+            BarwaPółprzezroczysta BarwaP1B = new BarwaPółprzezroczysta();
+            Console.WriteLine(BarwaP1B);
         }
     }
 }
