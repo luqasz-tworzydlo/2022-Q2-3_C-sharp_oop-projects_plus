@@ -1,0 +1,8 @@
+C:\Users\Łukasz Tworzydło\source\repos\oop-kz5-pracownik\oop-kz5-pracownik\bin\Debug\oop-kz5-pracownik.exe.config
+C:\Users\Łukasz Tworzydło\source\repos\oop-kz5-pracownik\oop-kz5-pracownik\bin\Debug\oop-kz5-pracownik.exe
+C:\Users\Łukasz Tworzydło\source\repos\oop-kz5-pracownik\oop-kz5-pracownik\bin\Debug\oop-kz5-pracownik.pdb
+C:\Users\Łukasz Tworzydło\source\repos\oop-kz5-pracownik\oop-kz5-pracownik\obj\Debug\oop-kz5-pracownik.csproj.AssemblyReference.cache
+C:\Users\Łukasz Tworzydło\source\repos\oop-kz5-pracownik\oop-kz5-pracownik\obj\Debug\oop-kz5-pracownik.csproj.SuggestedBindingRedirects.cache
+C:\Users\Łukasz Tworzydło\source\repos\oop-kz5-pracownik\oop-kz5-pracownik\obj\Debug\oop-kz5-pracownik.csproj.CoreCompileInputs.cache
+C:\Users\Łukasz Tworzydło\source\repos\oop-kz5-pracownik\oop-kz5-pracownik\obj\Debug\oop-kz5-pracownik.exe
+C:\Users\Łukasz Tworzydło\source\repos\oop-kz5-pracownik\oop-kz5-pracownik\obj\Debug\oop-kz5-pracownik.pdb
