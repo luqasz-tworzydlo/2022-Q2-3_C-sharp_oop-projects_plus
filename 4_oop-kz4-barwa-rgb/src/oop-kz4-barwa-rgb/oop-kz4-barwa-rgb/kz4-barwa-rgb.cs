@@ -343,6 +343,35 @@ namespace oop_kz4_barwa_rgb
         }*/
 
         // konstruktor nr 2 [wyświetlenie naszych wartości]
+        public string B12
+        {
+            get
+            {
+                return $"\n/// /// /// /// /// /// /// /// /// /// /// ///\n" +
+                    $"\n" +
+                    $"Colors - Decimal Values:" +
+                    $"\n=> black: {Black}" +
+                    $"\n=> cyan: {Cyan}" +
+                    $"\n=> magneta: {Magneta}" +
+                    $"\n=> brown: {Brown}" +
+                    $"\n=> dark_gray: {Dark_Gray}" +
+                    $"\n" +
+                    $"\nColors - Hexadecimal Values:" +
+                    $"\n=> black: {Black_b_Parase}" +
+                    $"\n=> cyan: {Cyan_c_Parase}" +
+                    $"\n=> magneta: {Magneta_m_Parase}" +
+                    $"\n=> brown: {Brown_b_Parase}" +
+                    $"\n=> dark_gray: {Dark_gray_dg_Parase}" +
+                    $"\n" +
+                    $"\nColors - Binary Values:" +
+                    $"\n=> black: {BlackBinary_Convert_From_Dec_To_Bin}" +
+                    $"\n=> cyan: {CyanBinary_Convert_From_Dec_To_Bin}" +
+                    $"\n=> magneta: {MagnetaBinary_Convert_From_Dec_To_Bin}" +
+                    $"\n=> brown: {BrownBinary_Convert_From_Dec_To_Bin}" +
+                    $"\n=> dark_gray: {DarkGrayBinary_Convert_From_Dec_To_Bin}" +
+                    $"\n";
+            }
+        }
         public override string ToString()
         {
             return $"\n/// /// /// /// /// /// /// /// /// /// /// ///\n" +
@@ -587,6 +616,37 @@ namespace oop_kz4_barwa_rgb
                 return $"({Rr_Parase},{Gg_Parase},{Bb_Parase}, {Alfa_Parase})";
             }
         }
+
+        // R // decimal value [ 68 ] => hex value [ 44 ] => binary value [ 0100 0100 ]
+        // G // decimal value [ 34 ] => hex value [ 22 ] => binary value [ 0010 0010 ]
+        // B // decimal value [ 17 ] => hex value [ 11 ] => binary value [ 0001 0001 ]
+        // A // decimal value [ 255 ] => hex value [ FF ] => binary value [ 1111 1111 ]
+
+        public string R_Convert_From_Dec_To_Bin
+        {
+            get
+            {
+                string binary_value = Convert.ToString(R, 2);
+                return binary_value;
+            }
+        }
+        public string G_Convert_From_Dec_To_Bin
+        {
+            get
+            {
+                string binary_value = Convert.ToString(G, 2);
+                return binary_value;
+            }
+        }
+        public string B_Convert_From_Dec_To_Bin
+        {
+            get
+            {
+                string binary_value = Convert.ToString(B, 2);
+                return binary_value;
+            }
+        }
+
         public string RrrGggBbbAaa
         {
             get
@@ -604,6 +664,13 @@ namespace oop_kz4_barwa_rgb
                     $"\n=> green: {Gg_Parase}" +
                     $"\n=> blue: {Bb_Parase}" +
                     $"\n=> alfa: {Alfa_Parase}" +
+                    $"\n" +
+
+                    $"\nRGBA Binary Values:" +
+                    $"\n=> red: {R_Convert_From_Dec_To_Bin}" +
+                    $"\n=> green: {G_Convert_From_Dec_To_Bin}" +
+                    $"\n=> blue: {B_Convert_From_Dec_To_Bin}" +
+                    $"\n=> alfa: {Alfa_Convert_From_Dec_To_Bin}" +
                     $"\n" +
 
                     $"\n\"#RrGgBbAa\" {RrGgBbAa}"
@@ -651,31 +718,7 @@ namespace oop_kz4_barwa_rgb
         // konstruktor [uzupełniony] (z naszymi danymi)
         public override string ToString()
         {
-
-            return $"\n/// /// /// /// /// /// /// /// /// /// /// ///\n" +
-                $"\n" +
-                $"Colors - Decimal Values:" +
-                $"\n=> black: {Black}" +
-                $"\n=> cyan: {Cyan}" +
-                $"\n=> magneta: {Magneta}" +
-                $"\n=> brown: {Brown}" +
-                $"\n=> dark_gray: {Dark_Gray}" +
-                $"\n" +
-                $"\nColors - Hexadecimal Values:" +
-                $"\n=> black: {Black_b_Parase}" +
-                $"\n=> cyan: {Cyan_c_Parase}" +
-                $"\n=> magneta: {Magneta_m_Parase}" +
-                $"\n=> brown: {Brown_b_Parase}" +
-                $"\n=> dark_gray: {Dark_gray_dg_Parase}" +
-                $"\n" +
-                $"\nColors - Binary Values:" +
-                $"\n=> black: {BlackBinary_Convert_From_Dec_To_Bin}" +
-                $"\n=> cyan: {CyanBinary_Convert_From_Dec_To_Bin}" +
-                $"\n=> magneta: {MagnetaBinary_Convert_From_Dec_To_Bin}" +
-                $"\n=> brown: {BrownBinary_Convert_From_Dec_To_Bin}" +
-                $"\n=> dark_gray: {DarkGrayBinary_Convert_From_Dec_To_Bin}" +
-                $"\n" +
-
+            return $"{B12}" +
                 $"\n/// /// /// /// /// /// /// /// /// /// /// ///\n" +
                 $"\n" +
                 $"ColorsPlus - Decimal Values:" +
@@ -706,8 +749,11 @@ namespace oop_kz4_barwa_rgb
                 $"\n=> light_red: {LightRed_Convert_From_Dec_To_Bin}" +
                 $"\n=> light_magneta: {LightMagneta_Convert_From_Dec_To_Bin}" +
                 $"\n=> yellow: {Yellow_Convert_From_Dec_To_Bin}" +
-                $"\n=> white: {Alfa_Convert_From_Dec_To_Bin}"
+                $"\n=> white: {Alfa_Convert_From_Dec_To_Bin}" +
+                $"\n" +
 
+                $"\n/// /// /// /// /// /// /// /// /// /// /// ///\n" +
+                $"{RrrGggBbbAaa}"
                 ;
         }
 
