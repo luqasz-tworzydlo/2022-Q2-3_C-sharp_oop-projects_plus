@@ -17,7 +17,9 @@ namespace oop_kz4_barwa_rgb
             //////////////////////////////////////////////////
             Console.WriteLine("\n(4) Z4 => Podstawy dziedziczenia - operacje na barwach ;>\n");
 
-            RGB();
+            // RGB();
+            // Colors();
+            ARGB();
 
             //////////////////////////////////////////////////
 
@@ -25,12 +27,15 @@ namespace oop_kz4_barwa_rgb
         }
         static void RGB()
         {
-            //Barwa barwa = new Barwa();
-            // Console.WriteLine(barwa);
-
-            /*Barwa12 b12 = new Barwa12();
-            Console.WriteLine(b12);*/
-
+            Barwa barwa = new Barwa();
+        }
+        static void Colors()
+        {
+            Barwa12 b12 = new Barwa12();
+            Console.WriteLine(b12);
+        }
+        static void ARGB()
+        {
             BarwaPółprzezroczysta BarwaP1B = new BarwaPółprzezroczysta();
             Console.WriteLine(BarwaP1B);
         }

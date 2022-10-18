@@ -138,11 +138,6 @@ namespace oop_kz4_barwa_rgb
                 $"\n\"#RrGgBb\" {RrGgBb}"
                 );
         }
-
-        /*public override string ToString()
-        {
-            return $"{R}, {G}, {B} colors";
-        }*/
     }
     internal class Barwa12 : Barwa
     {
@@ -306,43 +301,6 @@ namespace oop_kz4_barwa_rgb
             set => base.RGB = value;
         }
 
-
-        // konstruktor nr 1 [wyświetlenie naszych wartości]
-        /*public Barwa12()
-        {
-            Console.WriteLine(
-                "\n/// /// /// /// /// /// /// /// /// /// /// /// \n");
-
-            Console.WriteLine(
-                $"Colors - Decimal Values:" +
-                $"\n=> black: {Black}" +
-                $"\n=> cyan: {Cyan}" +
-                $"\n=> magneta: {Magneta}" +
-                $"\n=> brown: {Brown}" +
-                $"\n=> dark_gray: {Dark_Gray}");
-
-            Console.WriteLine(
-                $"\nColors - Hexadecimal Values:" +
-                $"\n=> black: {Black_b_Parase}" +
-                $"\n=> cyan: {Cyan_c_Parase}" +
-                $"\n=> magneta: {Magneta_m_Parase}" +
-                $"\n=> brown: {Brown_b_Parase}" +
-                $"\n=> dark_gray: {Dark_gray_dg_Parase}");
-
-            Console.WriteLine(
-                $"\nColors - Binary Values:" +
-                $"\n=> black: {BlackBinary_Convert_From_Dec_To_Bin}" +
-                $"\n=> cyan: {CyanBinary_Convert_From_Dec_To_Bin}" +
-                $"\n=> magneta: {MagnetaBinary_Convert_From_Dec_To_Bin}" +
-                $"\n=> brown: {BrownBinary_Convert_From_Dec_To_Bin}" +
-                $"\n=> dark_gray: {DarkGrayBinary_Convert_From_Dec_To_Bin}");
-
-            *//*Console.WriteLine(
-                $"\n=> Binary Value to Decimal Value < test >: {Test_Convert_From_Bin_To_Dec}" +
-                $"\n=> Decimal Value to Binary Value < test >: {Test_Convert_From_Dec_To_Bin}");*//*
-        }*/
-
-        // konstruktor nr 2 [wyświetlenie naszych wartości]
         public string B12
         {
             get
@@ -372,31 +330,11 @@ namespace oop_kz4_barwa_rgb
                     $"\n";
             }
         }
+
+        // konstruktor [wyświetlenie naszych wartości]
         public override string ToString()
         {
-            return $"\n/// /// /// /// /// /// /// /// /// /// /// ///\n" +
-                $"\n" +
-                $"Colors - Decimal Values:" +
-                $"\n=> black: {Black}" +
-                $"\n=> cyan: {Cyan}" +
-                $"\n=> magneta: {Magneta}" +
-                $"\n=> brown: {Brown}" +
-                $"\n=> dark_gray: {Dark_Gray}" +
-                $"\n" +
-                $"\nColors - Hexadecimal Values:" +
-                $"\n=> black: {Black_b_Parase}" +
-                $"\n=> cyan: {Cyan_c_Parase}" +
-                $"\n=> magneta: {Magneta_m_Parase}" +
-                $"\n=> brown: {Brown_b_Parase}" +
-                $"\n=> dark_gray: {Dark_gray_dg_Parase}" +
-                $"\n" +
-                $"\nColors - Binary Values:" +
-                $"\n=> black: {BlackBinary_Convert_From_Dec_To_Bin}" +
-                $"\n=> cyan: {CyanBinary_Convert_From_Dec_To_Bin}" +
-                $"\n=> magneta: {MagnetaBinary_Convert_From_Dec_To_Bin}" +
-                $"\n=> brown: {BrownBinary_Convert_From_Dec_To_Bin}" +
-                $"\n=> dark_gray: {DarkGrayBinary_Convert_From_Dec_To_Bin}"
-                ;
+            return $"{B12}";
         }
     }
     internal class BarwaPółprzezroczysta : Barwa12
@@ -535,69 +473,21 @@ namespace oop_kz4_barwa_rgb
 
         // konwertowanie z systemu dziesiętnego na dwójkowy [binarny]
         public string LightGray_Convert_From_Dec_To_Bin
-        {
-            get
-            {
-                string binary_value = Convert.ToString(light_gray, 2);
-                return binary_value;
-            }
-        }
+        { get { string binary_value = Convert.ToString(light_gray, 2); return binary_value; } }
         public string LightBlue_Convert_From_Dec_To_Bin
-        {
-            get
-            {
-                string binary_value = Convert.ToString(light_blue, 2);
-                return binary_value;
-            }
-        }
+        { get { string binary_value = Convert.ToString(light_blue, 2); return binary_value; } }
         public string LightGreen_Convert_From_Dec_To_Bin
-        {
-            get
-            {
-                string binary_value = Convert.ToString(light_green, 2);
-                return binary_value;
-            }
-        }
+        { get { string binary_value = Convert.ToString(light_green, 2); return binary_value; } }
         public string LightCyan_Convert_From_Dec_To_Bin
-        {
-            get
-            {
-                string binary_value = Convert.ToString(light_cyan, 2);
-                return binary_value;
-            }
-        }
+        { get { string binary_value = Convert.ToString(light_cyan, 2); return binary_value; } }
         public string LightRed_Convert_From_Dec_To_Bin
-        {
-            get
-            {
-                string binary_value = Convert.ToString(light_red, 2);
-                return binary_value;
-            }
-        }
+        { get { string binary_value = Convert.ToString(light_red, 2); return binary_value; } }
         public string LightMagneta_Convert_From_Dec_To_Bin
-        {
-            get
-            {
-                string binary_value = Convert.ToString(light_magneta, 2);
-                return binary_value;
-            }
-        }
+        { get { string binary_value = Convert.ToString(light_magneta, 2); return binary_value; } }
         public string Yellow_Convert_From_Dec_To_Bin
-        {
-            get
-            {
-                string binary_value = Convert.ToString(yellow, 2);
-                return binary_value;
-            }
-        }
+        { get { string binary_value = Convert.ToString(yellow, 2); return binary_value; } }
         public string Alfa_Convert_From_Dec_To_Bin
-        {
-            get
-            {
-                string binary_value = Convert.ToString(white, 2);
-                return binary_value;
-            }
-        }
+        { get { string binary_value = Convert.ToString(white, 2); return binary_value; } }
 
         public byte Alfa { get => white; set => white = value; }
 
@@ -610,12 +500,7 @@ namespace oop_kz4_barwa_rgb
         public virtual (byte R, byte G, byte B, byte Alfa) RGBA { get; set; }
 
         public string RrGgBbAa
-        {
-            get
-            {
-                return $"({Rr_Parase},{Gg_Parase},{Bb_Parase}, {Alfa_Parase})";
-            }
-        }
+        { get { return $"({Rr_Parase},{Gg_Parase},{Bb_Parase}, {Alfa_Parase})"; } }
 
         // R // decimal value [ 68 ] => hex value [ 44 ] => binary value [ 0100 0100 ]
         // G // decimal value [ 34 ] => hex value [ 22 ] => binary value [ 0010 0010 ]
@@ -623,29 +508,11 @@ namespace oop_kz4_barwa_rgb
         // A // decimal value [ 255 ] => hex value [ FF ] => binary value [ 1111 1111 ]
 
         public string R_Convert_From_Dec_To_Bin
-        {
-            get
-            {
-                string binary_value = Convert.ToString(R, 2);
-                return binary_value;
-            }
-        }
+        { get { string binary_value = Convert.ToString(R, 2); return binary_value; } }
         public string G_Convert_From_Dec_To_Bin
-        {
-            get
-            {
-                string binary_value = Convert.ToString(G, 2);
-                return binary_value;
-            }
-        }
+        { get { string binary_value = Convert.ToString(G, 2); return binary_value; } }
         public string B_Convert_From_Dec_To_Bin
-        {
-            get
-            {
-                string binary_value = Convert.ToString(B, 2);
-                return binary_value;
-            }
-        }
+        { get { string binary_value = Convert.ToString(B, 2); return binary_value; } }
 
         public string RrrGggBbbAaa
         {
@@ -677,43 +544,6 @@ namespace oop_kz4_barwa_rgb
                     ;
             }
         }
-
-        // konstruktor [niekompletny]
-        /*public override string ToString()
-        {
-            return $"\n/// /// /// /// /// /// /// /// /// /// /// ///\n" +
-                $"\n" +
-                $"ColorsPlus - Decimal Values:" +
-                $"\n=> light_gray: {Light_Gray}" +
-                $"\n=> light_blue: {Light_Blue}" +
-                $"\n=> light_green: {Light_Green}" +
-                $"\n=> light_cyan: {Light_Cyan}" +
-                $"\n=> light_red: {Light_Red}" +
-                $"\n=> light_magneta: {Light_Magneta}" +
-                $"\n=> yellow: {Yellow}" +
-                $"\n=> white: {White}" +
-                $"\n" +
-                $"\nColorsPlus - Hexadecimal Values:" +
-                $"\n=> light_gray: {Light_gray_lg_Parase}" +
-                $"\n=> light_blue: {Light_blue_lb_Parase}" +
-                $"\n=> light_green: {Light_green_lg_Parase}" +
-                $"\n=> light_cyan: {Light_cyan_lc_Parase}" +
-                $"\n=> light_red: {Light_red_lr_Parase}" +
-                $"\n=> light_magneta: {Light_magneta_lm_Parase}" +
-                $"\n=> yellow: {Yellow_y_Parase}" +
-                $"\n=> white: {White_w_Parase}" +
-                $"\n" +
-                $"\nColorsPlus - Binary Values:" +
-                $"\n=> light_gray: {LightGray_Convert_From_Dec_To_Bin}" +
-                $"\n=> light_blue: {LightBlue_Convert_From_Dec_To_Bin}" +
-                $"\n=> light_green: {LightGreen_Convert_From_Dec_To_Bin}" +
-                $"\n=> light_cyan: {LightCyan_Convert_From_Dec_To_Bin}" +
-                $"\n=> light_red: {LightRed_Convert_From_Dec_To_Bin}" +
-                $"\n=> light_magneta: {LightMagneta_Convert_From_Dec_To_Bin}" +
-                $"\n=> yellow: {Yellow_Convert_From_Dec_To_Bin}" +
-                $"\n=> white: {White_Convert_From_Dec_To_Bin}"
-                ;
-        }*/
 
         // konstruktor [uzupełniony] (z naszymi danymi)
         public override string ToString()
@@ -756,21 +586,5 @@ namespace oop_kz4_barwa_rgb
                 $"{RrrGggBbbAaa}"
                 ;
         }
-
-        /*public byte A
-        {
-            get
-            {
-                return (byte)((this.Value >> 0x18) & 0xffL); // 0x18 is 24, 0xff is 255
-            }
-        }
-        public new long Value { get; private set; }
-
-        private static long MakeArgb(byte alpha, byte red, byte green, byte blue)
-        {
-            return (long)(((ulong)((((red << 0x10) | (green << 8))
-                | blue) | (alpha << 0x18))) & 0xffffffffL);
-        }*/
-
     }
 }
